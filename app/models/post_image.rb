@@ -8,5 +8,5 @@ class PostImage < ApplicationRecord
       image.attache(io: File.open(file_path), filename: 'default-image.png', content_type: 'image/png')
     end
       image
-    end
+  end
 end
